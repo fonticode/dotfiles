@@ -27,9 +27,26 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 rm -rf ~/.config/nvim/lua/custom/
 ```
 
+### Qtile
+```sh
+pip install xcffib
+pip install qtile
+echo 'PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+sudo touch /usr/share/xsessions/qtile.desktop
+sudo su
+echo '[Desktop Entry]
+Name=Qtile
+Comment=Qtile Session
+Exec=qtile start
+Type=Application
+Keywords=wm;tiling'  > /usr/share/xsessions/qtile.desktop
+# su <user> or exit terminal
+```
+
 ### Symlinks with stow
 ```sh
 stow alacritty
 stow tmux
 stow nvim
+stow qtile
 ```
