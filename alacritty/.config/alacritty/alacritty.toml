@@ -13,7 +13,7 @@ family = "Hurmit Nerd Font"
 style = "Regular"
 
 [window]
-opacity = 0.95
+opacity = 0.99
 
 [window.padding]
 # x = 15
