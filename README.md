@@ -7,7 +7,7 @@ sudo apt install npm python3-venv python3-pip -y
 
 ### Nerd Fonts
 ```sh
-curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hermit.zip
+curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hermit.zip
 unzip Hermit.zip -d ~/.fonts/
 fc-cache -fv
 ```
