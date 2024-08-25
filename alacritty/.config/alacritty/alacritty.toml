@@ -9,7 +9,7 @@ TERM = "xterm-256color"
 size = 12.0
 
 [font.normal]
-family = "Hurmit Nerd Font"
+family = "FiraCode Nerd Font"
 style = "Regular"
 
 [window]
