@@ -81,7 +81,8 @@ plugins=(
 	git 
 	zsh-autosuggestions 
 	zsh-syntax-highlighting 
-	you-should-use zsh-bat
+	you-should-use 
+  zsh-bat
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -114,6 +115,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# MacOS
+alias nvim="/usr/local/bin/nvim"
+alias ls='colorls'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
