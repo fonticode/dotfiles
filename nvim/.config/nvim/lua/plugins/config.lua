@@ -42,6 +42,8 @@ return {
 	{ import = "lazyvim.plugins.extras.lang.clangd" },
 	{ import = "lazyvim.plugins.extras.lang.json" },
 	{ import = "lazyvim.plugins.extras.lang.rust" },
+	{ import = "lazyvim.plugins.extras.lang.toml" },
+	{ import = "lazyvim.plugins.extras.dap.core" },
 	{
 		"nvim-treesitter/nvim-treesitter",
 		opts = {

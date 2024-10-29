@@ -83,11 +83,14 @@ plugins=(
 	zsh-syntax-highlighting 
 	you-should-use 
   zsh-bat
+  tmux
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+export ZSH_TMUX_AUTOSTART=true
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
