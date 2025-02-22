@@ -86,7 +86,7 @@ plugins=(
 	zsh-syntax-highlighting 
 	you-should-use 
   zsh-bat
-  tmux
+  # tmux
 )
 
 source $ZSH/oh-my-zsh.sh
