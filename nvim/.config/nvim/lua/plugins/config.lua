@@ -45,18 +45,22 @@ return {
 	},
 
 	--- Neo-tree unhide dotfiles
-	{
-		"nvim-neo-tree/neo-tree.nvim",
-		opts = {
-			filesystem = {
-				filtered_items = {
-					visible = true,
-					hide_dotfiles = false,
-					hide_gitignored = true,
-				},
-			},
-		},
-	},
+	-- {
+	-- 	"nvim-neo-tree/neo-tree.nvim",
+	-- 	opts = {
+	-- 		filesystem = {
+	-- 			filtered_items = {
+	-- 				visible = false,
+	-- 				hide_dotfiles = false,
+	-- 				hide_gitignored = false,
+	-- 			},
+	-- 			follow_current_file = {
+	-- 				enabled = false,
+	-- 				leave_dirs_open = false,
+	-- 			},
+	-- 		},
+	-- 	},
+	-- },
 
 	--- Vim Tmux Navigator
 	{
