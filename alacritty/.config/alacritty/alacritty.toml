@@ -10,13 +10,12 @@ family = "FiraCode Nerd Font"
 style = "Regular"
 
 [window]
-opacity = 0.99
+decorations = 'None'
 
+opacity = 0.90
 [window.padding]
 x = 10
 y = 10
 
 [general]
-import = [
-  "~/.config/alacritty/catppuccin-mocha.toml"
-]
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
