@@ -21,12 +21,13 @@ return {
 	{ import = "lazyvim.plugins.extras.lang.rust" },
 	{ import = "lazyvim.plugins.extras.lang.toml" },
 	{ import = "lazyvim.plugins.extras.dap.core" },
+	{ import = "lazyvim.plugins.extras.formatting.black" },
 
-	--- Treesitter syntax highlighting (not included in extras)
+	--- Treesitter syntax highlighting (not included in extras) - Extend default config
 	{
 		"nvim-treesitter/nvim-treesitter",
-		opts = {
-			ensure_installed = {
+		opts = function(_, opts)
+			vim.list_extend(opts.ensure_installed, {
 				"csv",
 				"make",
 				"doxygen",
@@ -40,8 +41,8 @@ return {
 				"gdscript",
 				"gdshader",
 				"zathurarc",
-			},
-		},
+			})
+		end,
 	},
 
 	--- Neo-tree unhide dotfiles
